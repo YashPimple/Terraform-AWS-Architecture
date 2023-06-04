@@ -1,11 +1,10 @@
-#creating EC2 instance
 resource "aws_instance" "My-web-instance1" {
   ami                         = "ami-02f3f602d23f1659d" #Amazon linux 2 AMI
   key_name                    = "mykeypair"
   associate_public_ip_address = true
-  subnet_id                   = aws_subnet.public-subnet1.id
+  subnet_id                   = aws_subnet.Public_subnet-1.id
   instance_type               = "t2.micro"
-  vpc_security_group_ids      = [aws_security_group.Custom-Public-SG-DB.id]
+  vpc_security_group_ids      = [aws_security_group.custom_security_SG_DB.id]
   user_data                   = <<-EOF
         #!/bin/bash
         yum update -y
@@ -17,12 +16,12 @@ resource "aws_instance" "My-web-instance1" {
 }
 
 resource "aws_instance" "My-web-instance2" {
-  ami                         = "ami-02f3f602d23f1659d" #Amazon linux 2 AMI 
+  ami                         = "ami-02f3f602d23f1659d" #Amazon linux 2 AMI
   key_name                    = "mykeypair"
   associate_public_ip_address = true
-  subnet_id                   = aws_subnet.public-subnet2.id
+  subnet_id                   = aws_subnet.Public_subnet-2.id
   instance_type               = "t2.micro"
-  vpc_security_group_ids      = [aws_security_group.Custom-Public-SG-DB.id]
+  vpc_security_group_ids      = [aws_security_group.custom_security_SG_DB.id]
   user_data                   = <<-EOF
         #!/bin/bash
         yum update -y
