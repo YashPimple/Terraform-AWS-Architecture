@@ -4,7 +4,7 @@ This project showcases the implementation of a scalable and resilient 2-tier arc
 
 ## Workflow
 <p align="center">
-  <img width="661" alt="2-Tier-Architecture" src="https://github.com/YashPimple/Terraform-AWS-Architecture/assets/97302447/20a0a8a6-b83e-44bc-834e-c26ae1465f4b">
+  <img width="642" alt="Tier-2 Architecture" src="https://github.com/YashPimple/Terraform-AWS-Architecture/assets/97302447/a543a4bf-a532-45c8-aba7-88bae9936940">
 </p>
 
 ### Features
