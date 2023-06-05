@@ -1,5 +1,5 @@
 resource "aws_instance" "My-web-instance1" {
-  ami                         = "ami-02f3f602d23f1659d" #Amazon linux 2 AMI
+  ami                         = "ami-0d52744d6551d851e" #Amazon linux 2 AMI
   key_name                    = "mykeypair"
   associate_public_ip_address = true
   subnet_id                   = aws_subnet.Public_subnet-1.id
@@ -16,7 +16,7 @@ resource "aws_instance" "My-web-instance1" {
 }
 
 resource "aws_instance" "My-web-instance2" {
-  ami                         = "ami-02f3f602d23f1659d" #Amazon linux 2 AMI
+  ami                         = "ami-0d52744d6551d851e" #Amazon linux 2 AMI
   key_name                    = "mykeypair"
   associate_public_ip_address = true
   subnet_id                   = aws_subnet.Public_subnet-2.id
