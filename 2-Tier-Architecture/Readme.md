@@ -36,21 +36,20 @@ $ cd 2-Tier-Architecture
 ```
 
 3. Configure your AWS credentials by setting the environment variables or using the AWS CLI.
-4. Update the `variables.tf` file with your desired configuration.
-5. Initialize the Terraform project.
+4. Initialize the Terraform project.
 ```bash
 $ terraform init
 ```
-6. Review the execution plan.
+5. Review the execution plan.
 ```bash
 $ terraform plan
 ```
-7. Deploy the architecture.
+6. Deploy the architecture.
 ```bash
 $ terraform apply
 ```
 
-8.Confirm the deployment by typing `yes` when prompted.
+7. Confirm the deployment by typing `yes` when prompted.
 
 ## Cleanup
 - To clean up and destroy the infrastructure created by this project, run the following command:
