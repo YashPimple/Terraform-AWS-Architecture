@@ -1,17 +1,17 @@
 ## 2-Tier-Architecture Project with Terraform and AWS
 
-This project showcases the implementation of a scalable and resilient 2-tier architecture using Terraform and AWS. Leveraging the power of infrastructure as code, this setup provides a solid foundation for deploying web applications with high availability and fault tolerance.
+This project showcases implementing a scalable and resilient 2-tier architecture using Terraform and AWS. Leveraging the power of infrastructure as code, this setup provides a solid foundation for deploying web applications with high availability and fault tolerance.
 
 ## Workflow
 <p align="center">
-  <img width="642" alt="Tier-2 Architecture" src="https://github.com/YashPimple/Terraform-AWS-Architecture/assets/97302447/a543a4bf-a532-45c8-aba7-88bae9936940">
+  <img width="792" alt="2-Tier Architecture" src="https://github.com/YashPimple/Terraform-AWS-Architecture/assets/97302447/ed6bc255-bd46-4fdf-b9ec-c76b466b46a9">
 </p>
 
 ### Features
 - **Tier 1: Web Tier**
 
   - EC2 instances provisioned in public subnets
-  - Auto Scaling Group for handling dynamic workload
+  - Auto Scaling Group for handling the dynamic workload
   - Load Balancer for distributing traffic and ensuring high availability
   - Security Groups to control inbound and outbound traffic
 
