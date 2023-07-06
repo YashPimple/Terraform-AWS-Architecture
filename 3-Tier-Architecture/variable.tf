@@ -5,5 +5,5 @@ variable "cidr" {
 
 variable "az" {
   type = list
-  default = ["ap-northeast-1a","ap-northeast-1b"]
+  default = ["ap-northeast-1a","ap-northeast-1c"]
 }
