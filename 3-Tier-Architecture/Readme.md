@@ -1,10 +1,10 @@
 ## 3-Tier-Architecture Project with Terraform and AWS
 
-This repository showcases the implementation of a scalable and resilient 3-tier architecture using Terraform and AWS. The project aims to provide a hands-on experience in deploying web applications with high availability and fault tolerance by leveraging the power of infrastructure as code.
+This repository showcases the implementation of a scalable and resilient 3-tier architecture using Terraform and AWS. The project aims to provide hands-on experience in deploying web applications with high availability and fault tolerance by leveraging the power of infrastructure as code.
 
 ## Workflow of the Project
 <p align="center">
-    <img width="884" alt="3-Tier Architecture" src="https://github.com/YashPimple/Terraform-AWS-Architecture/assets/97302447/d90ce939-b16b-4e25-be19-bf71c82c5e92">
+    <img width="1126" alt="3-Tier-Architecture" src="https://github.com/YashPimple/Terraform-AWS-Architecture/assets/97302447/60a3e508-95ad-4dfb-81ee-ea48f1f93441">
 </p>
 
 ### Features
